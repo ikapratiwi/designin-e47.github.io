@@ -1,0 +1,61 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+	  display: none;
+  }
+  
+  .text-left h1 {
+    font-size: 40px;
+  }
+  
+  .text-left h2 {
+    font-size: 25px;
+  }
+  
+  .text-left p {
+	width: 250px;
+	font-size: 10px;
+	padding-top: 10px;
+  }
+  
+  .btn {
+	  padding: 5px 10px;
+  }
+  
+  .signup {
+	  font-size: 10px;
+	  padding: 5px 30px;
+  }
+  
+  .gambar {
+	width: 170px;
+	margin-right: 10px;
+	margin-top: 40px;
+  }
+  
+  .lesson-icon img {
+	width: 50px;
+  }
+  .lesson {
+	  font-size: 15px;
+	  margin-left: 5px;
+  }
+  .belajar {
+	  font-size: 20px;
+	  padding: 5px 30px;
+	  margin-left: 10px;
+  }
+  .produk {
+	  font-size: 20px;
+	  padding: 5px 30px;
+	  margin-right: 10px;
+  }
+  .footer-right {
+	  padding-right: 20px;
+  }
+}
